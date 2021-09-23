@@ -4,7 +4,7 @@ const ContactSchema = new mongoose.Schema({
   email: {
     type: String,
     required: true,
-    maxlength: 20,
+    maxlength: 50,
   },
   coin: {
     type: String,
